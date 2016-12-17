@@ -34,9 +34,12 @@ TODO!
 1. Drop `nginx-sla.sh` into your scripts path (it's likely to be somewhat similar to `/etc/zabbix/scripts/`) on your Zabbix agent hosts. Make sure it has +x permissions for zabbix-agent
 2. Put `userparameter_nginx_sla.conf` into /etc/zabbix/zabbix_agentd.d/
 3. Import `zbx_nginx_sla_template.xml` through zabbix [UI](https://www.zabbix.com/documentation/2.4/manual/web_interface/frontend_sections/configuration/templates?s[]=templates&s[]=export&s[]=import)
-4. Configure nginx to support nginx-sla unless it's already done. 
+4. Configure nginx to support nginx-sla unless it's already done.
+
    The detailed reference can be found [here](https://github.com/goldenclone/nginx-sla/blob/master/README.en.md).
+
    Here's a sample working configuration:
+
    ```
    sla_pool main timings=50:100:1000:10000:60000 http=200:404:500:502:503:504 default;
    ```
