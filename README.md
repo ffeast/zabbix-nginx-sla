@@ -14,7 +14,10 @@ It simply dumps stats by calling a dedicated url shipped by `nginx-sla`.
 - No triggers
 
 ## Screenshots
-TODO!
+![Nginx SLA time percentile](https://cloud.githubusercontent.com/assets/5617530/21292152/7ebbbe8a-c50b-11e6-8623-348a1cdb4413.jpg)
+![Nginx SLA all http response code classes](https://cloud.githubusercontent.com/assets/5617530/21292153/7ebc41b6-c50b-11e6-98fb-b2db6c14236a.jpg)
+![Nginx SLA 5xx](https://cloud.githubusercontent.com/assets/5617530/21292155/7ec00666-c50b-11e6-9a61-b359a673553e.jpg)
+![Nginx SLA 2xx](https://cloud.githubusercontent.com/assets/5617530/21292154/7ebd173a-c50b-11e6-98a9-37da2ee23290.jpg)
 
 ## System requirements
 
